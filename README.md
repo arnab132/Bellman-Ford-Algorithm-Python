@@ -43,7 +43,8 @@ The first iteration guarantees to give all shortest paths which are at most 1 ed
 
 The second iteration guarantees to give all shortest paths which are at most 2 edges long. The algorithm processes all edges 2 more times. The distances are minimized after the second iteration, so third and fourth iterations don’t update the distances.
 
-Notes
+Notes:
+
 1) Negative weights are found in various applications of graphs. For example, instead of paying cost for a path, we may get some advantage if we follow the path.
 
 2) Bellman-Ford works better (better than Dijksra’s) for distributed systems. Unlike Dijkstra’s where we need to find the minimum value of all vertices, in Bellman-Ford, edges are considered one by one.
