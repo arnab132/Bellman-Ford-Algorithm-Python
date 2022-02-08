@@ -11,7 +11,7 @@ Output: Shortest distance to all vertices from src. If there is a negative weigh
 
 1) This step initializes distances from the source to all vertices as infinite and distance to the source itself as 0. Create an array dist[] of size |V| with all values as infinite except dist[src] where src is source vertex.
 
-2) This step calculates shortest distances. Do following |V|-1 times where |V| is the number of vertices in given graph.
+2) This step calculates shortest distances. Do the following |V|-1 times where |V| is the number of vertices in given graph.
 …..a) Do following for each edge u-v
 ………………If dist[v] > dist[u] + weight of edge uv, then update dist[v]
 ………………….dist[v] = dist[u] + weight of edge uv
