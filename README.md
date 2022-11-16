@@ -4,7 +4,7 @@ Dijkstra doesn’t work for Graphs with negative weight edges, but the Bellman-F
 
 Algorithm:
 
-Following are the detailed Steps for implementing the Bellman Ford algorithm :
+Following are the detailed Steps for implementing the Bellman Ford Algorithm :
 
 Input: Graph and a source vertex - src
 Output: Shortest distance to all vertices from src. If there is a Negative weight cycle, then Shortest distances are not calculated, negative(-ve) weight cycle is reported.
