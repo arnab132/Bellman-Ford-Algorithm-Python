@@ -9,7 +9,7 @@ Following are the detailed steps for implementing the Bellman Ford Algorithm :
 Input: Graph and a Source vertex - src
 Output: Shortest distance to all vertices from src. If there is a Negative weight cycle, then shortest distances are not calculated, negative(-ve) weight cycle is reported.
 
-1) This step initializes distances from the source to all Vertices as infinite and distance to the source itself as 0. Create an array dist[] of size |V| with all values as infinite except dist[src] where src is Source vertex.
+1) This step initializes distances from the source to all vertices as infinite and distance to the source itself as 0. Create an array dist[] of size |V| with all values as infinite except dist[src] where src is Source vertex.
 
 2) This step calculates Shortest distances. Do the following |V|-1 times where |V| is the number of vertices in given graph.
 …..a) Do following for each edge u-v
